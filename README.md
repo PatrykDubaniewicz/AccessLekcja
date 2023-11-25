@@ -6,7 +6,7 @@ przeprowadzono instalację.
 Dane zgromadzono w plikach tekstowych: <i>kraje.txt</i>, <i>instalacje.txt</i> oraz
 <i>urzadzenia.txt</i>. Pierwszy wiersz każdego z plików jest wierszem nagłówkowym,
 a dane w wierszach rozdzielone są znakami tabulacji. 
-Plik o nazwie kraje.txt zawiera informacje o krajach, w których instalowano aplikację.
+Plik o nazwie <i>kraje.txt</i> zawiera informacje o krajach, w których instalowano aplikację.
 W każdym wierszu pliku znajdują się następujące dane: 
 
 <b>kod_k</b> – kod kraju (napis dwuznakowy)
@@ -24,7 +24,7 @@ Przykład:
 | DZ | ALGERIA | 42545964 |
 
 
-Plik o nazwie urzadzenia.txt zawiera informacje o urządzeniach, na których może być
+Plik o nazwie <i>urzadzenia.txt</i> zawiera informacje o urządzeniach, na których może być
 instalowana aplikacja. W każdym wierszu pliku znajdują się następujące informacje:
 
 <b>kod_u</b> – unikatowy kod (liczba całkowita co najwyżej 5-cyfrowa)
@@ -43,5 +43,33 @@ Przykład:
 |-------|-------------|-------------|-------|
 | 12410 | PLATINUM_E5 | Sky devices | Phone |
 | 6549  | Ilium L1120 | Lanix       | Phone |
+
+Plik o nazwie <i>instalacje.txt</i> zawiera informacje o instalacjach aplikacji. W każdym
+wierszu pliku znajdują się następujące informacje:
+
+<b>data_i</b> – data instalacji (w formacie dd.mm.rrrrr)
+
+<b>kod_u</b> – kod urządzenia, na którym była wykonana instalacja (liczba całkowita co
+najwyżej 5-cyfrowa)
+
+<b>kod_k</b> – kod kraju, w którym znajdowało się to urządzenie (napis dwuznakowy).
+
+Uwaga: kod_u nie oznacza pojedynczego egzemplarza urządzenia, a tylko jego rodzaj
+
+Przykład:
+| data_i | kod_k | kod_u |
+|------|-------|------|
+| 01.03.2019 | AM | 145 |
+| 01.03.2019 | AR | 804 |
+| 01.03.2019 | AT | 12632 |
+
+
+Z wykorzystaniem danych zawartych w podanych plikach oraz dostępnych narzędzi
+informatycznych, podaj odpowiedzi do zadań 7.1.–7.4. Odpowiedzi zapisz w pliku
+<i>wyniki7.txt</i>, a każdą z nich poprzedź numerem odpowiedniego zadania.
+
+
+
+
 
 
