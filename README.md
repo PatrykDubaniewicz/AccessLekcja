@@ -68,6 +68,26 @@ Z wykorzystaniem danych zawartych w podanych plikach oraz dostępnych narzędzi
 informatycznych, podaj odpowiedzi do zadań 7.1.–7.4. Odpowiedzi zapisz w pliku
 <i>wyniki7.txt</i>, a każdą z nich poprzedź numerem odpowiedniego zadania.
 
+Zadanie 7.1. (0–2)
+Dla każdego typu urządzenia podaj liczbę instalacji aplikacji na tym typie urządzenia.
+
+Zadanie 7.2. (0–2)
+Podaj nazwę producenta urządzeń, dla którego w lutym 2019 wykonano najwięcej instalacji.
+Podaj liczbę tych instalacji.
+
+Zadanie 7.3. (0–3)
+Podaj nazwy pięciu krajów, w których przeprowadzono najwięcej instalacji w przeliczeniu na
+1 000 000 mieszkańców, oraz podaj liczby tych instalacji.
+Dla każdego z tych pięciu krajów podaj liczbę instalacji na 1 000 000 mieszkańców
+z dokładnością do dwóch miejsc po przecinku.
+Uwaga: pomiń kraje, w których jest mniej niż milion mieszkańców.
+
+Zadanie 7.4. (0–2)
+Podaj kod oraz nazwę urządzenia typu tablet („Tablet”), na którym zainstalowano aplikację
+w największej liczbie krajów. Podaj także liczbę krajów, w których instalowano aplikację na
+tym urządzeniu.
+
+
 
 
 
